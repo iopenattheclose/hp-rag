@@ -22,7 +22,10 @@ import re
 from collections import Counter
 from pathlib import Path
 
-import hp_lexicon as lx
+if __package__:
+    from . import hp_lexicon as lx
+else:
+    import hp_lexicon as lx
 
 SCENE = "<<SCENE_BREAK>>"
 ABBR = re.compile(r"\b(?:Mr|Mrs|Ms|Dr|St|Prof|Mt|Jr|Sr|Capt|Col|Gen|vs)\.$")

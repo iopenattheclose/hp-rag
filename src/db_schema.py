@@ -19,7 +19,10 @@ import argparse
 
 import duckdb
 
-import hp_lexicon as lx
+if __package__:
+    from . import hp_lexicon as lx
+else:
+    import hp_lexicon as lx
 
 DESCRIPTIONS = {
     "muggle": "Sees the plot, not the secrets. Books 1-7, clearance 0.",
