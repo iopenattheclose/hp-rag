@@ -1,3 +1,8 @@
 pdf-inspector
 pandas
 pyarrow
+duckdb
+mlx-lm
+python-dotenv
+qdrant-client 
+sentence-transformers

@@ -1,3 +1,16 @@
 .env
 .venv/
 data/
+FLOW.md
+.wal
+.duckdb/
+hp.duckdb.wal
+hp.duckdb
+.pyc
+.pytest_cache/
+src/__pycache__/hp_lexicon.cpython-311.pyc
+test/
+
+
+*.pyc
+__pycache__/
