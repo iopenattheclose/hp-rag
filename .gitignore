@@ -14,3 +14,6 @@ test/
 
 *.pyc
 __pycache__/
+
+*.csv
+audit.duckdb
